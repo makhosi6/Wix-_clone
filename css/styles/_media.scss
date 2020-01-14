@@ -1,0 +1,197 @@
+                                    @media only screen and (max-width: 940px) {
+                                        .menu {
+                                            .left {
+                                                display: block !important;
+                                                img {
+                                                    padding: 10px 80px 0 20px !important;
+                                                }
+                                                ul {
+                                                    width: 100vw;
+                                                    position: absolute;
+                                                    justify-content: center;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 800px) {
+                                        .op {
+                                            display: unset;
+                                        }
+                                        .container-fluid {
+                                            background-color: #fafafa;
+                                            .text {
+                                                text-align: center;
+                                                padding-top: 10vh;
+                                                margin: auto;
+                                                h1 {
+                                                    font-size: 70px !important;
+                                                }
+                                                p {
+                                                    width: 80% !important;
+                                                }
+                                                .btn {
+                                                    padding: 10px 40px !important;
+                                                }
+                                                .img {
+                                                    bottom: -80px;
+                                                }
+                                            }
+                                        }
+                                        #p2 {
+                                            font-size: x-large;
+                                        }
+                                        .menu {
+                                            .left {
+                                                .opt,
+                                                ul {
+                                                    display: none;
+                                                }
+                                            }
+                                            .mobile {
+                                                display: unset !important;
+                                            }
+                                            .right {
+                                                display: none;
+                                            }
+                                        }
+                                        .c-f,
+                                        .blue,
+                                        .wix-ed {
+                                            display: block !important;
+                                            div {
+                                                padding-bottom: 10vh;
+                                            }
+                                        }
+                                        .wix-ed,
+                                        .create {
+                                            padding: 20px !important;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 800px) {
+                                        .p3 {
+                                            font-size: 15px !important;
+                                        }
+                                        .footer {
+                                            .tabs {
+                                                display: block !important;
+                                                div {
+                                                    max-width: 100% !important;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 740px) {
+                                        .footer {
+                                            width: 100% !important;
+                                            line-height: 2;
+                                            .tabs {
+                                                div {
+                                                    // max-width: 100%;
+                                                    ul {
+                                                        li {
+                                                            font-weight: lighter;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .logo2 {
+                                                color: white;
+                                                font-size: 1em;
+                                                width: 70%;
+                                                p {
+                                                    font-size: 12px;
+                                                    line-height: 1.2;
+                                                }
+                                            }
+                                            .tabs {
+                                                display: block;
+                                                line-height: 2;
+                                                width: 100%;
+                                                div {
+                                                    margin-top: auto !important;
+                                                    margin-bottom: auto !important;
+                                                    list-style: none;
+                                                    max-width: 100%;
+                                                    display: flex;
+                                                    padding: 0 !important;
+                                                    flex-direction: column;
+                                                    justify-content: space-between;
+                                                    span {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        justify-content: space-between;
+                                                        span {
+                                                            float: left;
+                                                            width: 45%;
+                                                        }
+                                                        .down {
+                                                            font-size: 35px;
+                                                            width: 45%;
+                                                            top: auto;
+                                                            width: 40px !important;
+                                                            margin-bottom: auto !important;
+                                                            margin-left: auto !important;
+                                                            p {
+                                                                justify-content: stretch;
+                                                                transform: rotate(180deg);
+                                                                -webkit-transform: rotate(180deg);
+                                                                -moz-transform: rotate(180deg);
+                                                                -ms-transform: rotate(180deg);
+                                                                -o-transform: rotate(180deg);
+                                                            }
+                                                        }
+                                                        .span {
+                                                            font-size: 35px;
+                                                            width: 45%;
+                                                            top: auto;
+                                                            position: unset;
+                                                            width: 40px !important;
+                                                            margin-bottom: auto !important;
+                                                            margin-left: auto !important;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 873px) {
+                                        body {
+                                            .footer {
+                                                padding: 30px 20px;
+                                            }
+                                        }
+                                    }
+                                    
+                                    // @media only screen and (max-width: 400px) {
+                                    //     img {
+                                    //         padding: 10px 80px 0 20px;
+                                    //     }
+                                    // }
+                                    @media only screen and (min-width: 741px) {
+                                        body {
+                                            width: 100% !important;
+                                            .footer {
+                                                width: 100% !important;
+                                                .tabs {
+                                                    div {
+                                                        // min-width: 80%;
+                                                        .options {
+                                                            visibility: visible;
+                                                            position: unset;
+                                                        }
+                                                        .down {
+                                                            visibility: hidden;
+                                                        }
+                                                        .span {
+                                                            visibility: hidden;
+                                                            position: absolute;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }

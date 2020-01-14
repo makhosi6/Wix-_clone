@@ -1,0 +1,162 @@
+        .container-fluid {
+            background-color: #fafafa;
+            .text {
+                text-align: center;
+                padding-top: 10vh;
+                margin: auto;
+                h1 {
+                    width: 80%;
+                    font-size: 90px;
+                    margin: auto;
+                    // padding: 0 40px !important;
+                    font-weight: 600;
+                }
+                p {
+                    width: 50%;
+                    margin: auto;
+                    font-weight: 500;
+                }
+                .btn {
+                    background-color: #116dff;
+                    margin: 10px 20px;
+                    border-radius: 50px;
+                    padding: 20px 40px;
+                    color: white;
+                    -webkit-border-radius: 50px;
+                    -moz-border-radius: 50px;
+                    -ms-border-radius: 50px;
+                    -o-border-radius: 50px;
+                }
+                .img {
+                    max-width: 90vw !important;
+                    margin: auto;
+                    bottom: -120px;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        
+        .blue {
+            padding: 30vh 5vw 10vh 5vw !important;
+            background-color: #0b3080;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: white;
+            .one {
+                padding-left: 30px;
+                padding-bottom: 15px;
+                h1 {
+                    font-size: 50px;
+                }
+            }
+            .two {
+                padding-left: 30px;
+                line-height: 2;
+                [href="#"] {
+                    text-decoration: none;
+                    color: #ffffff !important;
+                    padding: 5px 0;
+                    border-bottom: 3px solid rgb(255, 255, 255);
+                    margin: auto 0 0 0;
+                }
+            }
+        }
+        
+        .c-f {
+            background-color: #fff !important;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0 !important;
+            color: #fff;
+            margin: 0 !important;
+            .green {
+                padding: 40px;
+                background-color: #0c6645;
+                .sctns {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    justify-content: space-between;
+                    padding: 40px 0 0 0;
+                    .item {
+                        padding: 0 30px 20px 0;
+                        h5 {
+                            border-top: 2px solid #fff;
+                            padding-top: 6px;
+                        }
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .foot {
+                    [href="#"] {
+                        text-decoration: none;
+                        color: #ffffff !important;
+                        padding: 5px 0;
+                        border-bottom: 3px solid rgb(255, 255, 255);
+                    }
+                }
+            }
+            .white {
+                background-color: #fff;
+                .photo {
+                    position: relative;
+                    top: 25%;
+                    padding: 50px 0;
+                    max-width: 75%;
+                    margin: auto;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        
+        .wix-ed {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 15vh;
+            .full-circle {
+                margin-left: auto;
+                img {
+                    width: 100%;
+                }
+            }
+            .four {
+                margin-top: auto;
+                margin-bottom: auto;
+                padding-left: 10%;
+                line-height: 1.6;
+                h1 {
+                    color: #000;
+                    ;
+                }
+                .lead {
+                    padding: 30px 0;
+                }
+                .p1 {
+                    font-size: 16px !important;
+                }
+                [href="#"] {
+                    text-decoration: none;
+                    color: #000 !important;
+                    padding: 5px 0;
+                    border-bottom: 3px solid #000;
+                    margin: auto 0 0 0;
+                }
+            }
+        }
+        
+        .space {
+            .left {
+                margin-right: auto !important;
+            }
+            .jpg {
+                width: 80% !important;
+            }
+        }

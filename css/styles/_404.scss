@@ -1,0 +1,44 @@
+                    .menu {
+                        .left {
+                            ol {
+                                li {
+                                    height: 70%;
+                                    &:hover {
+                                        color: #ffcc00;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    .errorPage {
+                        color: #363636;
+                        height: 100vh;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        .left {
+                            padding: 10%;
+                            height: 100vh;
+                            .tt {
+                                text-transform: capitalize;
+                                span {
+                                    font-size: x-large;
+                                    color: #929292;
+                                }
+                            }
+                            .l {
+                                font-weight: 200 !important;
+                                padding-bottom: 50px;
+                            }
+                            .h6 {
+                                font-weight: bolder;
+                                color: #aa4dc8 !important;
+                            }
+                        }
+                        .right {
+                            height: 100vh;
+                            background-image: url(/img/400_BG.jpg);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                    }
